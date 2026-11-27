@@ -91,7 +91,7 @@ export async function getUsageStatus(userId: string, timezone: string = 'UTC') {
   }
 
   const limits = LIMITS[tier]
-  let activeDailyLimit = limits.daily
+  const activeDailyLimit = limits.daily
 
   // Fetch all usage for rollover calculation and current status
   const { data: usageHistory, error } = await supabase
