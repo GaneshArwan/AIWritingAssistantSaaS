@@ -4,6 +4,20 @@ A multi-tenant SaaS platform engineered with a strict, security-first backend ar
 
 This document outlines the core backend systems, security guardrails, and the operational lifecycle of the platform.
 
+## Live Demo
+
+Live Deployment: [ai-writing-assistant-saas-three.vercel.app](https://ai-writing-assistant-saas-three.vercel.app/)
+
+![Live Demo](docs/media/demo.gif)
+
+[Watch full MP4 walkthrough](docs/media/demo.mp4)
+
+## Screenshots
+
+| Landing Interface | Authentication Flow |
+| :---: | :---: |
+| ![Landing Interface](docs/media/screenshot-desktop.png) | ![Authentication Flow](docs/media/screenshot-interactive.png) |
+
 ---
 
 ## 1. Engine & Output Pipeline
